@@ -1,0 +1,27 @@
+name 'libaio'
+org 'amylum'
+
+license 'COPYING'
+
+deps(
+  'linux-api-headers': {
+    version: '4.17-1',
+    checksum: 'b2526797b346c73dc44da02dc16def8eb2059c02bd015f76497e9babadc1a44f'
+  }
+)
+
+configure_flags(
+  prefix: '/usr',
+)
+
+harden
+cflags
+
+build do
+  make
+  run "make -C src prefix=#{releasedir}/usr install", default_env
+end
+
+test do
+  # TODO: add tests
+end
