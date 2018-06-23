@@ -5,7 +5,7 @@ libaio
 [![GitHub release](https://img.shields.io/github/release/amylum/libaio.svg)](https://github.com/amylum/libaio/releases)
 [![GPLv2 Licensed](https://img.shields.io/badge/license-GPLv2-green.svg)](https://tldrlegal.com/license/gnu-general-public-license-v2)
 
-Package repo for [libaio](http://www.libaio.net/)
+Package repo for [libaio](https://pagure.io/libaio/)
 
 ## Usage
 
