@@ -1,7 +1,7 @@
 libaio
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/libaio/master.svg)](https://circleci.com/gh/amylum/libaio)
+[![Build Status](https://img.shields.io/travis/com/amylum/libaio.svg)](https://travis-ci.com/amylum/libaio)
 [![GitHub release](https://img.shields.io/github/release/amylum/libaio.svg)](https://github.com/amylum/libaio/releases)
 [![GPLv2 Licensed](https://img.shields.io/badge/license-GPLv2-green.svg)](https://tldrlegal.com/license/gnu-general-public-license-v2)
 
